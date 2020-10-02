@@ -6,7 +6,7 @@ int main()
     int arr[] = {1, 5, 8, 9, 6, 7, 3, 4, 2, 0}; 
     int n = sizeof(arr)/sizeof(arr[0]); 
   
-    sort(arr, arr); 
+    sort(arr, arr+n); 
   
     cout << "\nArray after sorting using "
          "default sort is : \n"; 
